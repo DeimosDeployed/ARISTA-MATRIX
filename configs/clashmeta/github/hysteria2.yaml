@@ -705,111 +705,82 @@ proxies:
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
 - name: 'T.ME: @aristapnel #69'
   type: hysteria2
-  server: vpn-sg-001.fastervpn.world
+  server: 1088d113-t6pb40-tbac1z-1j3zm.hk2.hyhuawei.com
   port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-sg-001.fastervpn.world
+  password: 6ce63b80-8b5b-11ef-b635-f23c9164ca5d
+  sni: 1088d113-t6pb40-tbac1z-1j3zm.hk2.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #70'
   type: hysteria2
-  server: e11104bd-t53wg0-tkn6t8-1i3g8.us.hyhuawei.com
-  port: 443
-  password: 437cef58-f10b-11ef-8eaf-f23c9164ca5d
-  sni: e11104bd-t53wg0-tkn6t8-1i3g8.us.hyhuawei.com
+  server: ny1.naicn.top
+  port: 8443
+  password: 074290fc-9866-4385-9a03-3aa6617a0dcf
+  sni: ny1.naicn.top
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #71'
   type: hysteria2
-  server: 206.71.158.37
-  port: 36400
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
+  server: vpn-kr-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-kr-001.fastervpn.world
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #72'
   type: hysteria2
-  server: 206.71.158.23
-  port: 45000
-  password: Telegram--%3E%40Ln2Ray
-  sni: gavazn.55994421.xyz
+  server: 00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com
+  port: 443
+  password: 0114339c-488d-11ee-8792-f23c9164ca5d
+  sni: 00ee471a-t6ngg0-tbpkla-1otc2.us.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Telegram--%3E%40Ln2Ray
 - name: 'T.ME: @aristapnel #73'
   type: hysteria2
-  server: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+  server: 9184ff75-t57ls0-t7hmka-1plv4.hk2.hyhuawei.com
   port: 443
-  password: 331cae90-f7e9-11ed-b4e2-f23c913c8d2b
-  sni: bb06bea8-t6e740-tb3p3s-lj7z.hk1.hyhuawei.com
+  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
+  sni: 9184ff75-t57ls0-t7hmka-1plv4.hk2.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #74'
   type: hysteria2
-  server: 33a5bb93-t6pb40-tcdlur-1qwom.hk2.hyhuawei.com
+  server: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
   port: 443
-  password: 8d0ec7cc-eefa-11ee-9b59-f23c91cfbbc9
-  sni: 33a5bb93-t6pb40-tcdlur-1qwom.hk2.hyhuawei.com
+  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
+  sni: ad72fc1d-t70f40-tb016b-1m7l4.hk1.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #75'
   type: hysteria2
-  server: vpn-jp-004.fastervpn.world
-  port: 443
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  sni: vpn-jp-004.fastervpn.world
+  server: 91.132.51.160
+  port: 844
+  password: 5046SHWqk6
+  sni: 91.132.51.160
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #76'
   type: hysteria2
-  server: 9662dc6c-t6ngg0-taxf6m-ieln.us.hyhuawei.com
-  port: 443
-  password: f5c0eda2-4b97-11ed-bd7c-f23c913c8d2b
-  sni: 9662dc6c-t6ngg0-taxf6m-ieln.us.hyhuawei.com
+  server: hk5.dexlos.com
+  port: 9610
+  password: E35FD247-3464-493A-AA34-AE0972EDFA8C
+  sni: hk5.dexlos.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #77'
   type: hysteria2
-  server: 206.71.158.37
-  port: 36300
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #78'
-  type: hysteria2
-  server: 9f03f237-t6ngg0-t8kd6j-1c9em.us.hyhuawei.com
+  server: 71477f9c-t53wg0-t95ncr-1slop.hk1.hyhuawei.com
   port: 443
-  password: 336501b6-51d2-11ee-a993-f23c9164ca5d
-  sni: 9f03f237-t6ngg0-t8kd6j-1c9em.us.hyhuawei.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #79'
-  type: hysteria2
-  server: 9e157430-t6pb40-t9hghw-1sdoq.hk2.hyhuawei.com
-  port: 443
-  password: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-  sni: 9e157430-t6pb40-t9hghw-1sdoq.hk2.hyhuawei.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #80'
-  type: hysteria2
-  server: 107.167.18.123
-  port: 1743
-  password: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-  sni: c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk
+  password: 520b9126-9870-11ef-81b0-f23c9164ca5d
+  sni: 71477f9c-t53wg0-t95ncr-1slop.hk1.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
@@ -890,9 +861,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #75'
   - 'T.ME: @aristapnel #76'
   - 'T.ME: @aristapnel #77'
-  - 'T.ME: @aristapnel #78'
-  - 'T.ME: @aristapnel #79'
-  - 'T.ME: @aristapnel #80'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -969,9 +937,6 @@ proxy-groups:
   - 'T.ME: @aristapnel #75'
   - 'T.ME: @aristapnel #76'
   - 'T.ME: @aristapnel #77'
-  - 'T.ME: @aristapnel #78'
-  - 'T.ME: @aristapnel #79'
-  - 'T.ME: @aristapnel #80'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
