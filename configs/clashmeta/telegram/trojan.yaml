@@ -127,7 +127,7 @@ proxies:
       Host: sni.111000.dynv6.net
 - name: 'Trojan #4'
   type: trojan
-  server: 63.184.155.101
+  server: 13.36.88.140
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -140,7 +140,7 @@ proxies:
   - http/1.1
 - name: 'Trojan #5'
   type: trojan
-  server: 13.36.88.140
+  server: 13.38.246.169
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -153,7 +153,7 @@ proxies:
   - http/1.1
 - name: 'Trojan #6'
   type: trojan
-  server: 13.38.246.169
+  server: 52.58.203.172
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
@@ -166,7 +166,7 @@ proxies:
   - http/1.1
 - name: 'Trojan #7'
   type: trojan
-  server: 52.58.203.172
+  server: 15.224.89.79
   port: 22222
   password: telegram-id-privatevpns
   network: tcp
