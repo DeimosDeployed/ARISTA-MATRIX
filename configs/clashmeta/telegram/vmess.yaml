@@ -78,94 +78,6 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: www.arvancloud.ir
-  port: 8080
-  uuid: 766d4ab2-c092-451f-b5f4-f33c84978065
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vip6.ariatakpoyan.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /aria
-    headers:
-      Host: vip6.ariatakpoyan.ir
-- name: 'ARISTA #2'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: acc3df3c-6871-4d29-95ac-42d1f21cc255
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: ea448f03-1ab4-4ff4-8953-b95b40e528a0
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: c16d57ea-a162-464b-9999-d6be8b584430
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: b44cf53c-2f7b-4270-9327-113665e9a2f2
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: 67f5f02e-8a7a-40dc-9bf0-a3e1101f86ae
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #7'
-  type: vmess
   server: 185.143.234.235
   port: 80
   uuid: 3a218876-a085-4acb-b198-aa932e4f21f4
@@ -182,85 +94,7 @@ proxies:
     path: /
     headers:
       Host: nld002.midasnet.work
-- name: 'ARISTA #8'
-  type: vmess
-  server: 37.32.11.105
-  port: 4
-  uuid: 1dbbbcc8-e0a1-46ea-a5cd-30b6ac0f9893
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #9'
-  type: vmess
-  server: 37.32.11.105
-  port: 2
-  uuid: 770ed97a-4d5b-4920-8633-d347f0f96bd6
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 37.32.11.105
-  client-fingerprint: ''
-- name: 'ARISTA #10'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 8080
-  uuid: f59c9c52-f2ed-4196-9d9d-1156198958b7
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vip6.ariatakpoyan.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /aria
-    headers:
-      Host: vip6.ariatakpoyan.ir
-- name: 'ARISTA #11'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 8080
-  uuid: f59c9c52-f2ed-4196-9d9d-1156198958b7
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: vip6.ariatakpoyan.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /aria
-    headers:
-      Host: vip6.ariatakpoyan.ir
-- name: 'ARISTA #12'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.236.38.44
-  client-fingerprint: ''
-- name: 'ARISTA #13'
+- name: 'ARISTA #2'
   type: vmess
   server: 185.11.89.38
   port: 12809
@@ -274,7 +108,113 @@ proxies:
   tcp-fast-open: true
   servername: 185.11.89.38
   client-fingerprint: ''
-- name: 'ARISTA #14'
+- name: 'ARISTA #3'
+  type: vmess
+  server: 37.32.11.105
+  port: 4
+  uuid: acc3df3c-6871-4d29-95ac-42d1f21cc255
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #4'
+  type: vmess
+  server: 37.32.11.105
+  port: 4
+  uuid: ea448f03-1ab4-4ff4-8953-b95b40e528a0
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #5'
+  type: vmess
+  server: 37.32.11.105
+  port: 4
+  uuid: c16d57ea-a162-464b-9999-d6be8b584430
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #6'
+  type: vmess
+  server: 37.32.11.105
+  port: 4
+  uuid: b44cf53c-2f7b-4270-9327-113665e9a2f2
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #7'
+  type: vmess
+  server: 37.32.11.105
+  port: 4
+  uuid: 67f5f02e-8a7a-40dc-9bf0-a3e1101f86ae
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #8'
+  type: vmess
+  server: www.arvancloud.ir
+  port: 8080
+  uuid: f59c9c52-f2ed-4196-9d9d-1156198958b7
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vip6.ariatakpoyan.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /aria
+    headers:
+      Host: vip6.ariatakpoyan.ir
+- name: 'ARISTA #9'
+  type: vmess
+  server: www.arvancloud.ir
+  port: 8080
+  uuid: 766d4ab2-c092-451f-b5f4-f33c84978065
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: vip6.ariatakpoyan.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /aria
+    headers:
+      Host: vip6.ariatakpoyan.ir
+- name: 'ARISTA #10'
   type: vmess
   server: 82.198.246.9
   port: 180
@@ -288,7 +228,7 @@ proxies:
   tcp-fast-open: true
   servername: usaapp2.jisuyun.top
   client-fingerprint: chrome
-- name: 'ARISTA #15'
+- name: 'ARISTA #11'
   type: vmess
   server: 37.32.11.105
   port: 4
@@ -302,11 +242,11 @@ proxies:
   tcp-fast-open: true
   servername: 37.32.11.105
   client-fingerprint: ''
-- name: 'ARISTA #16'
+- name: 'ARISTA #12'
   type: vmess
-  server: bgroup.node1.v.nodelist-airport.com
-  port: 41423
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  server: 37.32.11.105
+  port: 4
+  uuid: 1dbbbcc8-e0a1-46ea-a5cd-30b6ac0f9893
   alterId: 0
   cipher: auto
   network: tcp
@@ -314,31 +254,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: bgroup.node1.v.nodelist-airport.com
-  client-fingerprint: chrome
-- name: 'ARISTA #17'
+  servername: 37.32.11.105
+  client-fingerprint: ''
+- name: 'ARISTA #13'
   type: vmess
-  server: bgroup.node2.v.nodelist-airport.com
-  port: 52312
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: bgroup.node2.v.nodelist-airport.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: ''
-    headers:
-      Host: bgroup.node2.v.nodelist-airport.com
-- name: 'ARISTA #18'
-  type: vmess
-  server: bgroup.node3.v.nodelist-airport.com
-  port: 28641
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -346,27 +268,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: bgroup.node3.v.nodelist-airport.com
-  client-fingerprint: chrome
-- name: 'ARISTA #19'
-  type: vmess
-  server: bgroup.node4.v.nodelist-airport.com
-  port: 53213
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: bgroup.node4.v.nodelist-airport.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: ''
-    headers:
-      Host: bgroup.node4.v.nodelist-airport.com
-- name: 'ARISTA #20'
+  servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'ARISTA #14'
   type: vmess
   server: bgroup.node5.v.nodelist-airport.com
   port: 32532
@@ -384,6 +288,24 @@ proxies:
     path: ''
     headers:
       Host: bgroup.node5.v.nodelist-airport.com
+- name: 'ARISTA #15'
+  type: vmess
+  server: www.arvancloud.ir
+  port: 2082
+  uuid: 59d63d01-1f2b-4413-a34d-7eb98d624528
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -404,11 +326,6 @@ proxy-groups:
   - 'ARISTA #13'
   - 'ARISTA #14'
   - 'ARISTA #15'
-  - 'ARISTA #16'
-  - 'ARISTA #17'
-  - 'ARISTA #18'
-  - 'ARISTA #19'
-  - 'ARISTA #20'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -428,11 +345,6 @@ proxy-groups:
   - 'ARISTA #13'
   - 'ARISTA #14'
   - 'ARISTA #15'
-  - 'ARISTA #16'
-  - 'ARISTA #17'
-  - 'ARISTA #18'
-  - 'ARISTA #19'
-  - 'ARISTA #20'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
