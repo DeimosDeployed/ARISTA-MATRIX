@@ -78,19 +78,19 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 188.114.98.0
+  server: 50.7.4.243
   port: 443
-  password: humanity
+  password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: www.calmlunch.com
+  servername: Koma-YT.PAGeS.Dev
   client-fingerprint: chrome
   ws-opts:
-    path: /assignment
+    path: /tr
     headers:
-      Host: www.calmlunch.com
+      Host: Koma-YT.PAGeS.Dev
 - name: 'Trojan #2'
   type: trojan
   server: 3.126.44.218
@@ -104,6 +104,60 @@ proxies:
   client-fingerprint: chrome
   alpn:
   - http/1.1
+- name: 'Trojan #3'
+  type: trojan
+  server: 13.37.158.16
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #4'
+  type: trojan
+  server: 78.159.131.12
+  port: 28259
+  password: MeaDiUmPlkWbZJ2BON8tz
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 78.159.131.12
+  client-fingerprint: chrome
+- name: 'Trojan #5'
+  type: trojan
+  server: 198.12.144.253
+  port: 443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'Trojan #6'
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -111,12 +165,20 @@ proxy-groups:
   - Auto Select
   - 'Trojan #1'
   - 'Trojan #2'
+  - 'Trojan #3'
+  - 'Trojan #4'
+  - 'Trojan #5'
+  - 'Trojan #6'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
   - 'Trojan #1'
   - 'Trojan #2'
+  - 'Trojan #3'
+  - 'Trojan #4'
+  - 'Trojan #5'
+  - 'Trojan #6'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
