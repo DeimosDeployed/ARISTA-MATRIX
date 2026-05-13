@@ -78,9 +78,9 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  server: 185.11.89.38
+  port: 12809
+  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
   alterId: 0
   cipher: auto
   network: tcp
@@ -88,7 +88,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.236.38.44
+  servername: 185.11.89.38
   client-fingerprint: ''
 - name: 'ARISTA #2'
   type: vmess
@@ -124,6 +124,20 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: v29.hdacd.com
+  client-fingerprint: ''
+- name: 'ARISTA #5'
+  type: vmess
   server: 185.236.38.44
   port: 19946
   uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
@@ -136,29 +150,11 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 2082
-  uuid: 16db2050-1d77-46ea-a909-a98106bf32fd
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
 - name: 'ARISTA #6'
   type: vmess
-  server: web.iranmedia.shop
-  port: 40880
-  uuid: 617c80f5-d965-4e54-b5ac-15e4742073a3
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -166,13 +162,13 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: telewebion.ir
+  servername: 185.236.38.44
   client-fingerprint: ''
 - name: 'ARISTA #7'
   type: vmess
-  server: 185.11.89.38
-  port: 12809
-  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
   alterId: 0
   cipher: auto
   network: tcp
@@ -180,7 +176,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.11.89.38
+  servername: 185.236.38.44
   client-fingerprint: ''
 - name: 'ARISTA #8'
   type: vmess
@@ -200,20 +196,6 @@ proxies:
     path: /newserver
     headers:
       Host: januray.helxx.ir
-- name: 'ARISTA #9'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.236.38.44
-  client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -227,7 +209,6 @@ proxy-groups:
   - 'ARISTA #6'
   - 'ARISTA #7'
   - 'ARISTA #8'
-  - 'ARISTA #9'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -240,7 +221,6 @@ proxy-groups:
   - 'ARISTA #6'
   - 'ARISTA #7'
   - 'ARISTA #8'
-  - 'ARISTA #9'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
