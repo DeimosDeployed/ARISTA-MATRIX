@@ -78,6 +78,20 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
+  server: v29.hdacd.com
+  port: 30829
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: v29.hdacd.com
+  client-fingerprint: ''
+- name: 'ARISTA #2'
+  type: vmess
   server: dn.torontomovie.com
   port: 8080
   uuid: 1f797123-c422-4053-b4ae-1c0a88a8931e
@@ -90,20 +104,6 @@ proxies:
   tcp-fast-open: true
   servername: dn.torontomovie.com
   client-fingerprint: chrome
-- name: 'ARISTA #2'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21805
-  uuid: 633ba86d-b64d-47bd-9128-764bf25a9e43
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
 - name: 'ARISTA #3'
   type: vmess
   server: 185.236.38.44
@@ -120,6 +120,20 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21805
+  uuid: 633ba86d-b64d-47bd-9128-764bf25a9e43
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #5'
+  type: vmess
   server: 217.218.52.1
   port: 11182
   uuid: f62d2411-c34d-460b-a93e-b789e03ca8b3
@@ -132,52 +146,38 @@ proxies:
   tcp-fast-open: true
   servername: 217.218.52.1
   client-fingerprint: ''
-- name: 'ARISTA #5'
+- name: 'ARISTA #6'
   type: vmess
-  server: v29.hdacd.com
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21805
+  uuid: 64ad221c-539e-4109-9f7c-403bb8f79544
+  alterId: 0
   cipher: auto
   network: tcp
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: v29.hdacd.com
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #6'
+- name: 'ARISTA #7'
   type: vmess
-  server: www.arvancloud.ir
-  port: 2082
-  uuid: f4ff777e-9adb-43f8-84da-5866f150ee86
+  server: mig-sin.darkube.ir
+  port: 443
+  uuid: 254721a9-5739-4baf-b35d-9bc950e346db
   alterId: 0
   cipher: auto
   network: ws
-  tls: false
+  tls: true
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: januray.helxx.ir
+  servername: mig-sin.darkube.ir
   client-fingerprint: ''
   ws-opts:
-    path: /newserver
+    path: /api/direct
     headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #7'
-  type: vmess
-  server: 185.236.38.44
-  port: 19946
-  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.236.38.44
-  client-fingerprint: ''
+      Host: mig-sin.darkube.ir
 - name: 'ARISTA #8'
   type: vmess
   server: 185.11.89.38
@@ -194,55 +194,23 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #9'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21805
-  uuid: 64ad221c-539e-4109-9f7c-403bb8f79544
+  server: snapp.ir
+  port: 8080
+  uuid: f9b873a6-aa8e-4424-b0d4-1589e4d4bbcb
   alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: dldisk.nr2coren.ir
   client-fingerprint: ''
+  ws-opts:
+    path: /
+    headers:
+      Host: dldisk.nr2coren.ir
 - name: 'ARISTA #10'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 2082
-  uuid: f4ff777e-9adb-43f8-84da-5866f150ee86
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #11'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 2082
-  uuid: f4ff777e-9adb-43f8-84da-5866f150ee86
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #12'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -256,7 +224,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #13'
+- name: 'ARISTA #11'
   type: vmess
   server: www.arvancloud.ir
   port: 80
@@ -274,6 +242,56 @@ proxies:
     path: /rayYou
     headers:
       Host: snappfootdigitorobfullymull.rayannob.ir
+- name: 'ARISTA #12'
+  type: vmess
+  server: www.arvancloud.ir
+  port: 2082
+  uuid: f4ff777e-9adb-43f8-84da-5866f150ee86
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
+- name: 'ARISTA #13'
+  type: vmess
+  server: 185.236.38.44
+  port: 19946
+  uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'ARISTA #14'
+  type: vmess
+  server: www.arvancloud.ir
+  port: 2082
+  uuid: f4ff777e-9adb-43f8-84da-5866f150ee86
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: januray.helxx.ir
+  client-fingerprint: ''
+  ws-opts:
+    path: /newserver
+    headers:
+      Host: januray.helxx.ir
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -292,6 +310,7 @@ proxy-groups:
   - 'ARISTA #11'
   - 'ARISTA #12'
   - 'ARISTA #13'
+  - 'ARISTA #14'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -309,6 +328,7 @@ proxy-groups:
   - 'ARISTA #11'
   - 'ARISTA #12'
   - 'ARISTA #13'
+  - 'ARISTA #14'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
