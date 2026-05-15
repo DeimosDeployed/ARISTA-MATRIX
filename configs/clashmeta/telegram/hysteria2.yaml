@@ -76,119 +76,28 @@ sniffer:
       - 2087
       - 2096
 proxies:
-- name: 'ARISTA #1'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21901
-  uuid: 5d3ff01d-18bc-49f5-8a42-b074fc49b0b0
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
-- name: 'ARISTA #2'
-  type: vmess
-  server: 188.213.199.47
-  port: 43366
-  uuid: 067ae20f-7bd9-4cd6-b0c3-2fea677755ff
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: filmnet.ir
-  client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: www.arvancloud.ir
-  port: 2082
-  uuid: a01f4cc9-b290-4dcd-b687-aef8cb10ce65
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: januray.helxx.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /newserver
-    headers:
-      Host: januray.helxx.ir
-- name: 'ARISTA #4'
-  type: vmess
-  server: shop.fastit.top
-  port: 6144
-  uuid: 70ce59eb-3ea0-4966-8141-49f368af46a1
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: shop.fastit.top
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: sanjose01.zgjok.com
+- name: 'Hysteria2 #1'
+  type: hysteria2
+  server: srm.kishonline.online
   port: 443
-  uuid: 96d21cfe-b264-4bf3-8349-fb076d40837e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-  udp: true
+  password: 9P5zfc7S0s
+  sni: srm.kishonline.online
   skip-cert-verify: false
-  tcp-fast-open: true
-  servername: sanjose01.zgjok.com
+  fast-open: true
   client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: sanjose01.zgjok.com
-- name: 'ARISTA #6'
-  type: vmess
-  server: av.reata.ir
-  port: 33795
-  uuid: c94dda40-44a6-413f-815e-0a7925b94b0a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: av.reata.ir
-  client-fingerprint: ''
+  obfs: salamander
+  obfs-password: kish-data-center
 proxy-groups:
 - name: Proxy Select
   type: select
   proxies:
   - Auto Select
-  - 'ARISTA #1'
-  - 'ARISTA #2'
-  - 'ARISTA #3'
-  - 'ARISTA #4'
-  - 'ARISTA #5'
-  - 'ARISTA #6'
+  - 'Hysteria2 #1'
   - DIRECT
 - name: Auto Select
   type: url-test
   proxies:
-  - 'ARISTA #1'
-  - 'ARISTA #2'
-  - 'ARISTA #3'
-  - 'ARISTA #4'
-  - 'ARISTA #5'
-  - 'ARISTA #6'
+  - 'Hysteria2 #1'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150

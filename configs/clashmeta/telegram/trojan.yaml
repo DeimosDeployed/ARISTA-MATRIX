@@ -78,6 +78,212 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
+  server: 185.18.250.252
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #2'
+  type: trojan
+  server: v1.dabache.top
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #3'
+  type: trojan
+  server: 172.67.180.92
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #4'
+  type: trojan
+  server: 8.6.112.0
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #5'
+  type: trojan
+  server: v1.dabache.top
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #6'
+  type: trojan
+  server: 172.67.180.92
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #7'
+  type: trojan
+  server: v1.dabache.top
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #8'
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: 'Trojan #9'
+  type: trojan
+  server: 172.67.180.92
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #10'
+  type: trojan
+  server: www.multiplydose.com
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #11'
+  type: trojan
+  server: 104.18.32.47
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #12'
+  type: trojan
+  server: 8.6.112.0
+  port: 443
+  password: humanity
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: www.multiplydose.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.multiplydose.com
+- name: 'Trojan #13'
+  type: trojan
+  server: 13.39.94.180
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #14'
+  type: trojan
+  server: 52.28.27.2
+  port: 22222
+  password: telegram-id-privatevpns
+  network: tcp
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: trojan.burgerip.co.uk
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+- name: 'Trojan #15'
+  type: trojan
   server: 167.68.11.253
   port: 443
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -91,7 +297,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #2'
+- name: 'Trojan #16'
   type: trojan
   server: 92.243.74.253
   port: 443
@@ -106,7 +312,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #3'
+- name: 'Trojan #17'
   type: trojan
   server: 162.159.153.212
   port: 2087
@@ -121,7 +327,7 @@ proxies:
     path: /
     headers:
       Host: sheleqaz.emotionreza.workers.dev
-- name: 'Trojan #4'
+- name: 'Trojan #18'
   type: trojan
   server: 104.17.185.207
   port: 443
@@ -138,7 +344,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net:443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'Trojan #5'
+- name: 'Trojan #19'
   type: trojan
   server: 152.53.200.163
   port: 8443
@@ -153,64 +359,6 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #6'
-  type: trojan
-  server: 104.18.16.56
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
-- name: 'Trojan #7'
-  type: trojan
-  server: 8.6.112.0
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'Trojan #8'
-  type: trojan
-  server: 8.6.112.0
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.multiplydose.com
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.multiplydose.com
-- name: 'Trojan #9'
-  type: trojan
-  server: 13.39.94.180
-  port: 22222
-  password: telegram-id-privatevpns
-  network: tcp
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -225,6 +373,16 @@ proxy-groups:
   - 'Trojan #7'
   - 'Trojan #8'
   - 'Trojan #9'
+  - 'Trojan #10'
+  - 'Trojan #11'
+  - 'Trojan #12'
+  - 'Trojan #13'
+  - 'Trojan #14'
+  - 'Trojan #15'
+  - 'Trojan #16'
+  - 'Trojan #17'
+  - 'Trojan #18'
+  - 'Trojan #19'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -238,6 +396,16 @@ proxy-groups:
   - 'Trojan #7'
   - 'Trojan #8'
   - 'Trojan #9'
+  - 'Trojan #10'
+  - 'Trojan #11'
+  - 'Trojan #12'
+  - 'Trojan #13'
+  - 'Trojan #14'
+  - 'Trojan #15'
+  - 'Trojan #16'
+  - 'Trojan #17'
+  - 'Trojan #18'
+  - 'Trojan #19'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
