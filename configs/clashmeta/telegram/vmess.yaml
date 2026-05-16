@@ -96,45 +96,9 @@ proxies:
       Host: januray.helxx.ir
 - name: 'ARISTA #2'
   type: vmess
-  server: snapp.ir
-  port: 8880
-  uuid: 6ed949eb-1670-48b8-999c-f6eeae203908
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: dl600tobi.sudoserver.ir
-  client-fingerprint: ''
-  ws-opts:
-    path: /
-    headers:
-      Host: dl600tobi.sudoserver.ir
-- name: 'ARISTA #3'
-  type: vmess
-  server: snapp.ir
-  port: 8880
-  uuid: d8c60a93-e923-424e-a506-6ed8b8dec114
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: dl600tobi.sudoserver.ir
-  client-fingerprint: chrome
-  ws-opts:
-    path: /
-    headers:
-      Host: dl600tobi.sudoserver.ir
-- name: 'ARISTA #4'
-  type: vmess
-  server: 185.11.89.38
-  port: 12809
-  uuid: aeddbbbd-ad95-49e8-ee31-7cacc7ede117
+  server: client.baravardeh.top
+  port: 3180
+  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
   alterId: 0
   cipher: auto
   network: tcp
@@ -142,9 +106,51 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.11.89.38
+  servername: client.baravardeh.top
+  client-fingerprint: ''
+- name: 'ARISTA #3'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21930
+  uuid: 97132b07-c50d-48f1-a569-ef6b2d792097
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #4'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21930
+  uuid: f164594a-4e06-47df-9264-07fcd7f0acf1
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #5'
+  type: vmess
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 21953
+  uuid: 5710fd2a-5256-498e-963a-6a7b6949bccd
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  client-fingerprint: ''
+- name: 'ARISTA #6'
   type: vmess
   server: network.spacestar.best
   port: 2082
@@ -162,62 +168,6 @@ proxies:
     path: /newserver
     headers:
       Host: januray.helxx.ir
-- name: 'ARISTA #6'
-  type: vmess
-  server: client.baravardeh.top
-  port: 3180
-  uuid: a34cac32-c71b-4cf1-9bbc-849fd86cbb3b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: client.baravardeh.top
-  client-fingerprint: ''
-- name: 'ARISTA #7'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21930
-  uuid: 97132b07-c50d-48f1-a569-ef6b2d792097
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
-- name: 'ARISTA #8'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21930
-  uuid: f164594a-4e06-47df-9264-07fcd7f0acf1
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
-- name: 'ARISTA #9'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21953
-  uuid: 5710fd2a-5256-498e-963a-6a7b6949bccd
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -229,9 +179,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -242,9 +189,6 @@ proxy-groups:
   - 'ARISTA #4'
   - 'ARISTA #5'
   - 'ARISTA #6'
-  - 'ARISTA #7'
-  - 'ARISTA #8'
-  - 'ARISTA #9'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
