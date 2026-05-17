@@ -97,8 +97,8 @@ proxies:
 - name: 'ARISTA #2'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 21951
-  uuid: 983a2b8e-19fc-4699-a772-956ce2877a75
+  port: 22100
+  uuid: 5135f283-b05a-460d-a883-b0ce832602c5
   alterId: 0
   cipher: auto
   network: tcp
@@ -110,9 +110,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #3'
   type: vmess
-  server: 165.140.216.141
-  port: 443
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  server: client.serverkhalij.top
+  port: 4362
+  uuid: 9c0b4705-685b-4a84-984f-71e4e024ec9f
   alterId: 0
   cipher: auto
   network: tcp
@@ -120,23 +120,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 165.140.216.141
+  servername: client.serverkhalij.top
   client-fingerprint: ''
 - name: 'ARISTA #4'
-  type: vmess
-  server: s82.faststrong.sbs
-  port: 35768
-  uuid: dd308322-1c16-4309-b840-e5db3df54f1a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: s82.faststrong.sbs
-  client-fingerprint: ''
-- name: 'ARISTA #5'
   type: vmess
   server: ak.reata.ir
   port: 16482
@@ -150,7 +136,7 @@ proxies:
   tcp-fast-open: true
   servername: ak.reata.ir
   client-fingerprint: ''
-- name: 'ARISTA #6'
+- name: 'ARISTA #5'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 21958
@@ -164,7 +150,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #7'
+- name: 'ARISTA #6'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -177,6 +163,20 @@ proxies:
   skip-cert-verify: false
   tcp-fast-open: true
   servername: 185.236.38.44
+  client-fingerprint: ''
+- name: 'ARISTA #7'
+  type: vmess
+  server: s82.faststrong.sbs
+  port: 35768
+  uuid: dd308322-1c16-4309-b840-e5db3df54f1a
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: s82.faststrong.sbs
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
