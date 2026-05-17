@@ -715,27 +715,38 @@ proxies:
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #72'
   type: hysteria2
-  server: hyfnjp03.352343.cc
-  port: 8080
-  password: 8d9ddfb4-7583-45b3-acf1-5343db385a38
-  sni: hyfnjp03.352343.cc
+  server: vpn-au-001.fastervpn.world
+  port: 443
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  sni: vpn-au-001.fastervpn.world
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #73'
   type: hysteria2
-  server: sg12.352343.cc
-  port: 8080
-  password: 8d9ddfb4-7583-45b3-acf1-5343db385a38
-  sni: sg12.352343.cc
+  server: us03.344233.cc
+  port: 20000
+  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
+  sni: us03.344233.cc
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
 - name: 'T.ME: @aristapnel #74'
+  type: hysteria2
+  server: 5gzdx.233235.xyz
+  port: 8080
+  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
+  sni: 5gzdx.233235.xyz
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #75'
   type: hysteria2
   server: sg21.453521.xyz
   port: 8080
-  password: b172c76d-e25a-449a-88cc-e19e0549d863
+  password: 7e2b98ee-5a4c-4630-b389-4afb2087621b
   sni: sg21.453521.xyz
   skip-cert-verify: false
   fast-open: true
@@ -813,6 +824,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #72'
   - 'T.ME: @aristapnel #73'
   - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #75'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -885,6 +897,7 @@ proxy-groups:
   - 'T.ME: @aristapnel #72'
   - 'T.ME: @aristapnel #73'
   - 'T.ME: @aristapnel #74'
+  - 'T.ME: @aristapnel #75'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
