@@ -78,30 +78,34 @@ sniffer:
 proxies:
 - name: 'Trojan #1'
   type: trojan
-  server: 35.181.10.101
-  port: 22222
-  password: telegram-id-privatevpns
-  network: tcp
+  server: 2.144.22.10
+  port: 40443
+  password: humanity
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
+  servername: www.creationlong.org
   client-fingerprint: chrome
-  alpn:
-  - http/1.1
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.creationlong.org
 - name: 'Trojan #2'
   type: trojan
-  server: 63.185.56.8
-  port: 22222
-  password: telegram-id-privatevpns
-  network: tcp
+  server: 188.121.121.183
+  port: 443
+  password: humanity
+  network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: trojan.burgerip.co.uk
+  servername: www.creationlong.org
   client-fingerprint: chrome
-  alpn:
-  - http/1.1
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.creationlong.org
 - name: 'Trojan #3'
   type: trojan
   server: 13.37.60.29
@@ -117,55 +121,6 @@ proxies:
   - http/1.1
 - name: 'Trojan #4'
   type: trojan
-  server: sourceforge.net
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmloud.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmloud.com
-- name: 'Trojan #5'
-  type: trojan
-  server: sourceforge.net
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.calmloud.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmloud.com
-- name: 'Trojan #6'
-  type: trojan
-  server: 2.144.22.10
-  port: 40443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
-- name: 'Trojan #7'
-  type: trojan
   server: 93.185.156.107
   port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -179,7 +134,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #8'
+- name: 'Trojan #5'
   type: trojan
   server: 77.110.103.243
   port: 8443
@@ -194,7 +149,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'Trojan #9'
+- name: 'Trojan #6'
   type: trojan
   server: 78.159.131.12
   port: 28259
@@ -205,21 +160,6 @@ proxies:
   tcp-fast-open: true
   servername: 🔒
   client-fingerprint: chrome
-- name: 'Trojan #10'
-  type: trojan
-  server: 188.121.121.183
-  port: 443
-  password: humanity
-  network: ws
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: www.creationlong.org
-  client-fingerprint: chrome
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.creationlong.org
 proxy-groups:
 - name: Proxy Select
   type: select
@@ -231,10 +171,6 @@ proxy-groups:
   - 'Trojan #4'
   - 'Trojan #5'
   - 'Trojan #6'
-  - 'Trojan #7'
-  - 'Trojan #8'
-  - 'Trojan #9'
-  - 'Trojan #10'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -245,10 +181,6 @@ proxy-groups:
   - 'Trojan #4'
   - 'Trojan #5'
   - 'Trojan #6'
-  - 'Trojan #7'
-  - 'Trojan #8'
-  - 'Trojan #9'
-  - 'Trojan #10'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
