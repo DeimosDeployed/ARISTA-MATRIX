@@ -120,9 +120,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #4'
   type: vmess
-  server: 185.79.98.237
-  port: 22157
-  uuid: 27c7f7db-b35e-4bde-b3d3-14f5a2d778ab
+  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  port: 22408
+  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
   alterId: 0
   cipher: auto
   network: tcp
@@ -130,51 +130,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 185.79.98.237
+  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
 - name: 'ARISTA #5'
-  type: vmess
-  server: 217.218.52.1
-  port: 10410
-  uuid: f93f134f-7adb-48c3-bcd1-2532edb0b478
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 217.218.52.1
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: 81.12.33.180
-  port: 2024
-  uuid: c92b7747-4222-4aa0-8c91-5753b8c759f4
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: parsabr.com
-  client-fingerprint: ''
-- name: 'ARISTA #7'
-  type: vmess
-  server: 185.231.181.62
-  port: 443
-  uuid: c233827e-22c1-4373-a8b7-840f40bde7a7
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 185.231.181.62
-  client-fingerprint: ''
-- name: 'ARISTA #8'
   type: vmess
   server: 185.79.98.237
   port: 22413
@@ -188,7 +146,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #9'
+- name: 'ARISTA #6'
   type: vmess
   server: 185.79.98.237
   port: 22408
@@ -202,7 +160,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #10'
+- name: 'ARISTA #7'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22414
@@ -216,7 +174,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #11'
+- name: 'ARISTA #8'
   type: vmess
   server: 188.121.102.194
   port: 9020
@@ -230,7 +188,7 @@ proxies:
   tcp-fast-open: true
   servername: 188.121.102.194
   client-fingerprint: ''
-- name: 'ARISTA #12'
+- name: 'ARISTA #9'
   type: vmess
   server: 185.79.98.237
   port: 22414
@@ -244,7 +202,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #13'
+- name: 'ARISTA #10'
   type: vmess
   server: 185.79.98.237
   port: 22411
@@ -258,7 +216,7 @@ proxies:
   tcp-fast-open: true
   servername: 185.79.98.237
   client-fingerprint: ''
-- name: 'ARISTA #14'
+- name: 'ARISTA #11'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22416
@@ -272,7 +230,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #15'
+- name: 'ARISTA #12'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22416
@@ -286,7 +244,7 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #16'
+- name: 'ARISTA #13'
   type: vmess
   server: 62.60.165.68
   port: 443
@@ -304,7 +262,7 @@ proxies:
     path: /ws/
     headers:
       Host: cip.salimore.com
-- name: 'ARISTA #17'
+- name: 'ARISTA #14'
   type: vmess
   server: cip.salimore.com
   port: 443
@@ -322,7 +280,7 @@ proxies:
     path: /ws/
     headers:
       Host: cip.salimore.com
-- name: 'ARISTA #18'
+- name: 'ARISTA #15'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22416
@@ -336,11 +294,11 @@ proxies:
   tcp-fast-open: true
   servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   client-fingerprint: ''
-- name: 'ARISTA #19'
+- name: 'ARISTA #16'
   type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22408
-  uuid: 6ffea2a0-1210-45cd-8276-900be7c7578e
+  server: acbv-ncaw-waa-f-cawfx-fawsx-wrqq-tttwezaw-f-c-v-b-aa-ew.i9club.store
+  port: 21250
+  uuid: 3b99627c-1927-42d0-9692-160ca7305db1
   alterId: 0
   cipher: auto
   network: tcp
@@ -348,9 +306,9 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
+  servername: acbv-ncaw-waa-f-cawfx-fawsx-wrqq-tttwezaw-f-c-v-b-aa-ew.i9club.store
   client-fingerprint: ''
-- name: 'ARISTA #20'
+- name: 'ARISTA #17'
   type: vmess
   server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
   port: 22408
@@ -386,9 +344,6 @@ proxy-groups:
   - 'ARISTA #15'
   - 'ARISTA #16'
   - 'ARISTA #17'
-  - 'ARISTA #18'
-  - 'ARISTA #19'
-  - 'ARISTA #20'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -410,9 +365,6 @@ proxy-groups:
   - 'ARISTA #15'
   - 'ARISTA #16'
   - 'ARISTA #17'
-  - 'ARISTA #18'
-  - 'ARISTA #19'
-  - 'ARISTA #20'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
