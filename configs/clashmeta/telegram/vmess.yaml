@@ -78,9 +78,9 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
-  server: ak.reata.ir
-  port: 16482
-  uuid: 1acd9c7c-2ae7-4c22-876e-23d6b416b6b7
+  server: pro.45259.net
+  port: 48668
+  uuid: 771f33ce-cc42-4513-b859-c1ac5308b77b
   alterId: 0
   cipher: auto
   network: tcp
@@ -88,9 +88,23 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ak.reata.ir
+  servername: pro.45259.net
   client-fingerprint: ''
 - name: 'ARISTA #2'
+  type: vmess
+  server: 153.121.73.175
+  port: 49803
+  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 153.121.73.175
+  client-fingerprint: ''
+- name: 'ARISTA #3'
   type: vmess
   server: 185.236.38.44
   port: 19946
@@ -104,20 +118,6 @@ proxies:
   tcp-fast-open: true
   servername: 185.236.38.44
   client-fingerprint: ''
-- name: 'ARISTA #3'
-  type: vmess
-  server: 45.144.54.183
-  port: 10097
-  uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 45.144.54.183
-  client-fingerprint: chrome
 - name: 'ARISTA #4'
   type: vmess
   server: s2.veraspeed.ir
@@ -166,9 +166,9 @@ proxies:
   client-fingerprint: ''
 - name: 'ARISTA #7'
   type: vmess
-  server: pro.45259.net
-  port: 48668
-  uuid: 771f33ce-cc42-4513-b859-c1ac5308b77b
+  server: 45.144.54.183
+  port: 10097
+  uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
   alterId: 0
   cipher: auto
   network: tcp
@@ -176,7 +176,21 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: pro.45259.net
+  servername: 45.144.54.183
+  client-fingerprint: chrome
+- name: 'ARISTA #8'
+  type: vmess
+  server: ak.reata.ir
+  port: 16482
+  uuid: 1acd9c7c-2ae7-4c22-876e-23d6b416b6b7
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: ak.reata.ir
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
@@ -190,6 +204,7 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
+  - 'ARISTA #8'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -201,6 +216,7 @@ proxy-groups:
   - 'ARISTA #5'
   - 'ARISTA #6'
   - 'ARISTA #7'
+  - 'ARISTA #8'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
