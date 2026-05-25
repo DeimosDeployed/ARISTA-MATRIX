@@ -797,23 +797,16 @@ proxies:
   obfs-password: PQ$hN78bzXWN
 - name: 'T.ME: @aristapnel #80'
   type: hysteria2
-  server: github.com
-  port: 443
-  password: ''
-  sni: www.microsoft.com
+  server: gavazn.lnmarketplace.net
+  port: 45000
+  password: Telegram--%3E%40Ln2Ray
+  sni: gavazn.55994421.xyz
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+  obfs: salamander
+  obfs-password: Telegram--%3E%40Ln2Ray
 - name: 'T.ME: @aristapnel #81'
-  type: hysteria2
-  server: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
-  port: 443
-  password: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  sni: 4a8146b5-t70f40-tlpfci-1jdha.hk1.hyhuawei.com
-  skip-cert-verify: false
-  fast-open: true
-  client-fingerprint: chrome
-- name: 'T.ME: @aristapnel #82'
   type: hysteria2
   server: 150.241.79.106
   port: 1935
@@ -822,32 +815,39 @@ proxies:
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
+- name: 'T.ME: @aristapnel #82'
+  type: hysteria2
+  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  port: 1743
+  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
+  sni: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+  skip-cert-verify: false
+  fast-open: true
+  client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #83'
   type: hysteria2
-  server: fdc3f3be-t6ngg0-tcq5zn-19qpt.us.hyhuawei.com
+  server: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   port: 443
-  password: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
-  sni: fdc3f3be-t6ngg0-tcq5zn-19qpt.us.hyhuawei.com
+  password: c3dc8d26-ab2b-11ec-a8bf-f23c91cfbbc9
+  sni: 72b99e3a-t6pb40-t8wh4m-1hpo0.hk1.hyhuawei.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
 - name: 'T.ME: @aristapnel #84'
   type: hysteria2
-  server: 206.71.158.37
-  port: 36300
-  password: Yet-Another-Public-Config-1
-  sni: YAPC-1.afshin.ir
+  server: github.com
+  port: 443
+  password: ''
+  sni: www.microsoft.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
 - name: 'T.ME: @aristapnel #85'
   type: hysteria2
-  server: ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com
-  port: 443
-  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-  sni: ed7340c8-t53wg0-t80cbx-1k0yf.hk2.hyhuawei.com
+  server: hk5.dexlos.com
+  port: 9610
+  password: E35FD247-3464-493A-AA34-AE0972EDFA8C
+  sni: hk5.dexlos.com
   skip-cert-verify: false
   fast-open: true
   client-fingerprint: chrome
