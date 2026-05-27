@@ -78,6 +78,70 @@ sniffer:
 proxies:
 - name: 'ARISTA #1'
   type: vmess
+  server: 158.69.208.120
+  port: 80
+  uuid: bed62ee5-2b42-41b0-aeae-e95d043da869
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 158.69.208.120
+  client-fingerprint: ''
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: 158.69.208.120
+- name: 'ARISTA #2'
+  type: vmess
+  server: det.reata.ir
+  port: 1030
+  uuid: 800a1ce5-226a-4e0d-9aa7-928e004c5581
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: det.reata.ir
+  client-fingerprint: ''
+- name: 'ARISTA #3'
+  type: vmess
+  server: 158.69.208.120
+  port: 2052
+  uuid: d95404c9-d696-44c1-a305-f8e2e95b8e41
+  alterId: 0
+  cipher: auto
+  network: tcp
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 158.69.208.120
+  client-fingerprint: ''
+- name: 'ARISTA #4'
+  type: vmess
+  server: 51.83.197.140
+  port: 80
+  uuid: 7d8c2904-0917-4002-bff9-9a44e1c92fb1
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: false
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: 51.83.197.140
+  client-fingerprint: ''
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: 51.83.197.140
+- name: 'ARISTA #5'
+  type: vmess
   server: 61.245.11.60
   port: 80
   uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
@@ -94,7 +158,7 @@ proxies:
     path: /vmess/
     headers:
       Host: 61.245.11.60
-- name: 'ARISTA #2'
+- name: 'ARISTA #6'
   type: vmess
   server: 104.16.90.120
   port: 8443
@@ -116,67 +180,11 @@ proxies:
     path: /ws
     headers:
       Host: node-de-1.e4e3e2.top
-- name: 'ARISTA #3'
-  type: vmess
-  server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  port: 22972
-  uuid: ebf50f56-843c-44ae-92f7-c987f9f664de
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf
-  client-fingerprint: ''
-- name: 'ARISTA #4'
-  type: vmess
-  server: 212.87.198.79
-  port: 45255
-  uuid: dd5ffd23-cef5-44dd-a143-658bd7f3943a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: bale.ai
-  client-fingerprint: ''
-- name: 'ARISTA #5'
-  type: vmess
-  server: 212.87.198.79
-  port: 45255
-  uuid: dd5ffd23-cef5-44dd-a143-658bd7f3943a
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: bale.ai
-  client-fingerprint: ''
-- name: 'ARISTA #6'
-  type: vmess
-  server: 153.121.73.175
-  port: 32221
-  uuid: b06054ae-f249-438e-998a-8e67bd8df653
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 153.121.73.175
-  client-fingerprint: ''
 - name: 'ARISTA #7'
   type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
+  server: 212.87.198.79
+  port: 45255
+  uuid: dd5ffd23-cef5-44dd-a143-658bd7f3943a
   alterId: 0
   cipher: auto
   network: tcp
@@ -184,81 +192,77 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 47.250.135.244
+  servername: bale.ai
   client-fingerprint: ''
 - name: 'ARISTA #8'
   type: vmess
-  server: ro.connfull.org
-  port: 2053
-  uuid: 9a6be41d-511a-4800-b828-368ca32dd56d
+  server: 45.15.178.97
+  port: 80
+  uuid: ec91b04e-cadc-47b3-bb0c-4fb762b33063
   alterId: 0
   cipher: auto
-  network: tcp
-  tls: true
+  network: ws
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: ro.connfull.org
-  client-fingerprint: chrome
+  servername: openai.com
+  client-fingerprint: ''
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: openai.com
 - name: 'ARISTA #9'
   type: vmess
-  server: n1753348736.lie5d.cyou
-  port: 443
-  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
+  server: 158.69.208.120
+  port: 80
+  uuid: bed62ee5-2b42-41b0-aeae-e95d043da869
   alterId: 0
   cipher: auto
   network: ws
-  tls: true
+  tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: n1753348736.lie5d.cyou
+  servername: 158.69.208.120
   client-fingerprint: ''
   ws-opts:
-    path: /
+    path: /api/v1
     headers:
-      Host: n1753348736.lie5d.cyou
+      Host: 158.69.208.120
 - name: 'ARISTA #10'
   type: vmess
-  server: skk.moe
-  port: 80
-  uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841
+  server: 212.87.198.79
+  port: 45255
+  uuid: dd5ffd23-cef5-44dd-a143-658bd7f3943a
   alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: accklsj.bufu.us.ci
+  servername: bale.ai
   client-fingerprint: ''
-  ws-opts:
-    path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess
-    headers:
-      Host: accklsj.bufu.us.ci
 - name: 'ARISTA #11'
   type: vmess
-  server: 47.250.149.51
-  port: 50018
-  uuid: 9665280c-a3d1-4aab-ef9f-a3a497337d91
+  server: 51.195.235.71
+  port: 2052
+  uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46
   alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
   tls: false
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 47.250.149.51
+  servername: 51.195.235.71
   client-fingerprint: ''
-  ws-opts:
-    path: /9665280c
-    headers:
-      Host: 47.250.149.51
 - name: 'ARISTA #12'
   type: vmess
-  server: 172.232.103.186
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  server: alien-ezterari.shoponetop.com
+  port: 1001
+  uuid: dc07e356-29ba-4fed-b613-62f920031130
   alterId: 0
   cipher: auto
   network: tcp
@@ -266,21 +270,7 @@ proxies:
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: 172.232.103.186
-  client-fingerprint: ''
-- name: 'ARISTA #13'
-  type: vmess
-  server: 172.233.17.76
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  network: tcp
-  tls: false
-  udp: true
-  skip-cert-verify: false
-  tcp-fast-open: true
-  servername: 172.233.17.76
+  servername: p30afzar.com
   client-fingerprint: ''
 proxy-groups:
 - name: Proxy Select
@@ -299,7 +289,6 @@ proxy-groups:
   - 'ARISTA #10'
   - 'ARISTA #11'
   - 'ARISTA #12'
-  - 'ARISTA #13'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -316,7 +305,6 @@ proxy-groups:
   - 'ARISTA #10'
   - 'ARISTA #11'
   - 'ARISTA #12'
-  - 'ARISTA #13'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
