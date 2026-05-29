@@ -2394,22 +2394,24 @@ proxies:
       Host: www.app-cloud.ir
 - name: 'T.ME: @aristapnel #158'
   type: trojan
-  server: 104.17.121.71
+  server: 216.24.57.7
   port: 443
   password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: cdn.hitgram.ir
+  servername: dash.hitgram.ir
   client-fingerprint: chrome
+  alpn:
+  - http/1.1
   ws-opts:
-    path: /?ed=2048
+    path: /
     headers:
-      Host: cdn.hitgram.ir
+      Host: dash.hitgram.ir
 - name: 'T.ME: @aristapnel #159'
   type: trojan
-  server: 104.17.121.71
+  server: 208.103.161.33
   port: 443
   password: Mitivpn
   network: ws
@@ -2426,52 +2428,56 @@ proxies:
       Host: cdn.hitgram.ir
 - name: 'T.ME: @aristapnel #160'
   type: trojan
-  server: 94.242.53.94
-  port: 8443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 104.17.121.71
+  port: 443
+  password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
+  servername: cdn.hitgram.ir
   client-fingerprint: chrome
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /?ed=2048
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: cdn.hitgram.ir
 - name: 'T.ME: @aristapnel #161'
   type: trojan
-  server: 69.143.174.201
-  port: 8443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 104.17.121.71
+  port: 443
+  password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
+  servername: cdn.hitgram.ir
   client-fingerprint: chrome
+  alpn:
+  - http/1.1
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /?ed=2048
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: cdn.hitgram.ir
 - name: 'T.ME: @aristapnel #162'
   type: trojan
-  server: 45.130.125.66
-  port: 443
-  password: 8r%3C%5B9%27l6hAO%238ZQi
+  server: 104.17.121.71
+  port: 2053
+  password: Mitivpn
   network: ws
   udp: true
   skip-cert-verify: false
   tcp-fast-open: true
-  servername: Koma-YT.PAGeS.Dev
+  servername: dash.hitgram.ir
   client-fingerprint: chrome
+  alpn:
+  - http/1.1
   ws-opts:
-    path: /tr
+    path: /
     headers:
-      Host: Koma-YT.PAGeS.Dev
+      Host: dash.hitgram.ir
 - name: 'T.ME: @aristapnel #163'
   type: trojan
-  server: 37.120.188.105
+  server: 94.242.53.94
   port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
@@ -2486,8 +2492,8 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
 - name: 'T.ME: @aristapnel #164'
   type: trojan
-  server: 31.133.0.159
-  port: 2053
+  server: 69.143.174.201
+  port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
   udp: true
@@ -2501,8 +2507,8 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
 - name: 'T.ME: @aristapnel #165'
   type: trojan
-  server: 23.173.104.210
-  port: 2053
+  server: 45.130.125.66
+  port: 443
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
   udp: true
@@ -2511,12 +2517,12 @@ proxies:
   servername: Koma-YT.PAGeS.Dev
   client-fingerprint: chrome
   ws-opts:
-    path: /trTelegram🇨🇳+@WangCai2
+    path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
 - name: 'T.ME: @aristapnel #166'
   type: trojan
-  server: 216.126.237.69
+  server: 37.120.188.105
   port: 8443
   password: 8r%3C%5B9%27l6hAO%238ZQi
   network: ws
@@ -2531,6 +2537,51 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
 - name: 'T.ME: @aristapnel #167'
   type: trojan
+  server: 31.133.0.159
+  port: 2053
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'T.ME: @aristapnel #168'
+  type: trojan
+  server: 23.173.104.210
+  port: 2053
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'T.ME: @aristapnel #169'
+  type: trojan
+  server: 216.126.237.69
+  port: 8443
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  network: ws
+  udp: true
+  skip-cert-verify: false
+  tcp-fast-open: true
+  servername: Koma-YT.PAGeS.Dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: /trTelegram🇨🇳+@WangCai2
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+- name: 'T.ME: @aristapnel #170'
+  type: trojan
   server: 172.66.47.69
   port: 2096
   password: 8r%3C%5B9%27l6hAO%238ZQi
@@ -2544,7 +2595,7 @@ proxies:
     path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #168'
+- name: 'T.ME: @aristapnel #171'
   type: trojan
   server: 172.64.149.54
   port: 2096
@@ -2559,7 +2610,7 @@ proxies:
     path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #169'
+- name: 'T.ME: @aristapnel #172'
   type: trojan
   server: 104.21.7.21
   port: 2096
@@ -2574,7 +2625,7 @@ proxies:
     path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #170'
+- name: 'T.ME: @aristapnel #173'
   type: trojan
   server: 104.167.196.91
   port: 2053
@@ -2589,7 +2640,7 @@ proxies:
     path: /trTelegram🇨🇳+@WangCai2
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #171'
+- name: 'T.ME: @aristapnel #174'
   type: trojan
   server: 104.16.7.70
   port: 443
@@ -2604,7 +2655,7 @@ proxies:
     path: /tr
     headers:
       Host: Koma-YT.PAGeS.Dev
-- name: 'T.ME: @aristapnel #172'
+- name: 'T.ME: @aristapnel #175'
   type: trojan
   server: 162.159.153.2
   port: 443
@@ -2621,7 +2672,7 @@ proxies:
     path: /?proxyip=ip.111000.de5.net%3A443
     headers:
       Host: sni.111000.dynv6.net
-- name: 'T.ME: @aristapnel #173'
+- name: 'T.ME: @aristapnel #176'
   type: trojan
   server: 172.64.152.23
   port: 443
@@ -2636,7 +2687,7 @@ proxies:
     path: /51.91.253.83
     headers:
       Host: gzjx.dpdns.org
-- name: 'T.ME: @aristapnel #174'
+- name: 'T.ME: @aristapnel #177'
   type: trojan
   server: 207.65.189.9
   port: 443
@@ -2830,6 +2881,9 @@ proxy-groups:
   - 'T.ME: @aristapnel #172'
   - 'T.ME: @aristapnel #173'
   - 'T.ME: @aristapnel #174'
+  - 'T.ME: @aristapnel #175'
+  - 'T.ME: @aristapnel #176'
+  - 'T.ME: @aristapnel #177'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -3008,6 +3062,9 @@ proxy-groups:
   - 'T.ME: @aristapnel #172'
   - 'T.ME: @aristapnel #173'
   - 'T.ME: @aristapnel #174'
+  - 'T.ME: @aristapnel #175'
+  - 'T.ME: @aristapnel #176'
+  - 'T.ME: @aristapnel #177'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
