@@ -1,6 +1,6 @@
 # GitHub TROJAN Configurations
-# Updated: 2026-06-05 17:31:36
-# Count: 182
+# Updated: 2026-06-05 19:29:46
+# Count: 187
 # Source: GitHub Repositories
 
 trojan://trojan@109.234.211.66:8443?security=tls&sni=store.timimi.dpdns.org&fp=chrome&type=ws&path=/&host=store.timimi.dpdns.org#T.ME: @aristapnel
@@ -185,3 +185,8 @@ trojan://BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m@149.104.104.101:443?sni=www.registry
 trojan://BzOx2R8u59SOipHwhIYW-IMyJePBEiUY-m@149.104.104.101:443?sni=www.registry-monitor.click&fp=chrome&path=%2f#T.ME: @aristapnel
 trojan://gcuCpQfaiVeDBdWG@211.76.176.98:19128?security=tls&sni=yazhou10.dynu.net&path=%2f#T.ME: @aristapnel
 trojan://lTs6OZOMoqYAkDEbK10t-tE8KMjuREBW3m@130.94.104.210:443?sni=www.cdn-structure.click&path=%2f#T.ME: @aristapnel
+trojan://humanity@212.183.88.136:443?path=/assignment&security=tls&insecure=0&host=www.calmlunch.com&type=ws&allowInsecure=0&sni=www.calmlunch.com#T.ME: @aristapnel
+trojan://humanity@216.24.57.7:443/?type=ws&host=www.ignitelimit.com&path=/assignment&security=tls&sni=www.ignitelimit.com#T.ME: @aristapnel
+trojan://humanity@216.24.57.7:443?path=%2Fassignment&security=tls&alpn=http%2F1.1&insecure=1&host=www.calmloud.com&fp=chrome&type=ws&allowInsecure=1&sni=www.calmloud.com#T.ME: @aristapnel
+trojan://humanity@216.24.57.7:443?security=tls&sni=www.ignitelimit.com&fp=chrome&insecure=0&allowInsecure=0&type=ws&path=/assignment#T.ME: @aristapnel
+trojan://humanity@216.24.57.7:443?type=ws&security=tls&path=%2Fassignment&sni=www.calmloud.com&fp=chrome&alpn=http%252F1.1&allowInsecure=1#T.ME: @aristapnel
