@@ -724,7 +724,7 @@ class ConfigCombiner:
         except Exception as e:
             print(f"  ❌ خطا در ارسال به تلگرام: {e}")
     
-        def create_persian_caption(self, category, count, source, timestamp, source_type):
+    def create_persian_caption(self, category, count, source, timestamp, source_type):
         protocol_name = self.protocol_names_fa.get(category, category.upper())
         protocol_emoji = self.protocol_emojis.get(category, '📁')
         
