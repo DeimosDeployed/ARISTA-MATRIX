@@ -1,6 +1,6 @@
 # GitHub SS Configurations
-# Updated: 2026-06-09 19:29:22
-# Count: 52
+# Updated: 2026-06-09 21:31:35
+# Count: 55
 # Source: GitHub Repositories
 
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBSEZuOFJQRjJHU3hYNEJYOWk5YTE2@62.133.60.43:36456#T.ME: @aristapnel
@@ -54,4 +54,7 @@ ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZTI4NzYzMWRjNGZjOGZj@62.146.231.112:12012#T
 ss://YWVzLTI1Ni1nY206MzRmSXR5Wnl6Njl1SXJ4a0orY0xSMXBkY2x2RzYyOHB2OCtmelVOVElDMD0@57.131.28.246:2083#T.ME: @aristapnel
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpoYkdycGZ2TnJKc1VtS21QYlIzaVky@tinkered-pennies-puppies.freesocks.work:443#T.ME: @aristapnel
+ss://YWVzLTEyOC1nY206NTIzejJmZ3JkN2p4MHo1eHY2bzU=@167.160.90.51:11475#T.ME: @aristapnel
+ss://YWVzLTI1Ni1jZmI6YUxwUXRmRVplNDQ1UXlIaw==@217.30.10.70:9098#T.ME: @aristapnel
+ss://YWVzLTI1Ni1jZmI6d2pUdWdYM1p0SE1COWMzWg==@217.30.10.70:9057#T.ME: @aristapnel
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1c09qQVFYbXlScWNZOGFSQUZGZ2hueVJS@83.166.250.6:51287#T.ME: @aristapnel

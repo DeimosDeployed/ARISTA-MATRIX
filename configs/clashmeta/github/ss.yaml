@@ -430,6 +430,30 @@ proxies:
   tcp-fast-open: true
 - name: 'T.ME: @aristapnel #52'
   type: ss
+  server: 167.160.90.51
+  port: 11475
+  cipher: aes-128-gcm
+  password: 523z2fgrd7jx0z5xv6o5
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #53'
+  type: ss
+  server: 217.30.10.70
+  port: 9098
+  cipher: aes-256-cfb
+  password: aLpQtfEZe445QyHk
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #54'
+  type: ss
+  server: 217.30.10.70
+  port: 9057
+  cipher: aes-256-cfb
+  password: wjTugX3ZtHMB9c3Z
+  udp: true
+  tcp-fast-open: true
+- name: 'T.ME: @aristapnel #55'
+  type: ss
   server: 83.166.250.6
   port: 51287
   cipher: chacha20-ietf-poly1305
@@ -486,6 +510,9 @@ proxy-groups:
   - 'T.ME: @aristapnel #50'
   - 'T.ME: @aristapnel #51'
   - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
+  - 'T.ME: @aristapnel #54'
+  - 'T.ME: @aristapnel #55'
   - DIRECT
 - name: Auto Select
   type: url-test
@@ -535,6 +562,9 @@ proxy-groups:
   - 'T.ME: @aristapnel #50'
   - 'T.ME: @aristapnel #51'
   - 'T.ME: @aristapnel #52'
+  - 'T.ME: @aristapnel #53'
+  - 'T.ME: @aristapnel #54'
+  - 'T.ME: @aristapnel #55'
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 150
