@@ -1,10 +1,12 @@
 import json
 import requests
+import os
 
 OUTPUT_FILE = "output/ip_bank.txt"
 
 def load_config():
-    with open("config.json", "r", encoding="utf-8") as f:
+    config_path = os.path.join(os.path.dirname(__file__), "config.json")
+    with open(config_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 def fetch_source(url):
