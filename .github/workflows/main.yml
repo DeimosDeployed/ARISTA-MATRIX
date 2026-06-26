@@ -37,14 +37,14 @@ jobs:
       - name: Install
         run: |
           python -m pip install --upgrade pip
-          pip install -r Arista/requirements.txt
+          pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         id: ip-bank-cache
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -61,8 +61,8 @@ jobs:
           mkdir -p .cache
 
           if [ ! -s output/clean_ips.txt ]; then
-            python Arista/downloader.py
-            python Arista/cleaner.py
+            python downloader.py
+            python cleaner.py
           fi
 
       - name: Save Rolling State
@@ -101,13 +101,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -121,7 +121,7 @@ jobs:
       - name: TCP Scan
         run: |
           free -h
-          python Arista/main.py --tcp
+          python main.py --tcp
 
       - name: Save State
         uses: actions/upload-artifact@v4
@@ -159,13 +159,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -179,7 +179,7 @@ jobs:
       - name: TLS Scan
         run: |
           free -h
-          python Arista/main.py --tls
+          python main.py --tls
 
       - name: Save State
         uses: actions/upload-artifact@v4
@@ -217,13 +217,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -237,7 +237,7 @@ jobs:
       - name: HTTPS Validation
         run: |
           free -h
-          python Arista/main.py --https
+          python main.py --https
 
       - name: Save State
         uses: actions/upload-artifact@v4
@@ -275,13 +275,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -295,7 +295,7 @@ jobs:
       - name: Fingerprint
         run: |
           free -h
-          python Arista/main.py --fp
+          python main.py --fp
 
       - name: Save State
         uses: actions/upload-artifact@v4
@@ -333,13 +333,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -353,7 +353,7 @@ jobs:
       - name: GEO
         run: |
           free -h
-          python Arista/main.py --geo
+          python main.py --geo
 
       - name: Save State
         uses: actions/upload-artifact@v4
@@ -391,13 +391,13 @@ jobs:
           python-version: "3.12"
           cache: pip
 
-      - run: pip install -r Arista/requirements.txt
+      - run: pip install -r requirements.txt
 
       - name: Cache IP Bank
         uses: actions/cache@v4
         with:
           path: .cache
-          key: ip-bank-${{ hashFiles('Arista/config.json') }}
+          key: ip-bank-${{ hashFiles('config.json') }}
           restore-keys: |
             ip-bank-
 
@@ -411,7 +411,7 @@ jobs:
       - name: Finalize
         run: |
           free -h
-          python Arista/main.py --finalize
+          python main.py --finalize
 
       - name: Save Final State
         uses: actions/upload-artifact@v4
