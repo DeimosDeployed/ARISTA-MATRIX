@@ -218,6 +218,7 @@ def rank_results():
 
     for ip in domains_ips:
         if ip not in existing_ips:
+            geo = city_map.get(ip, {})
             ranked.append({
                 'ip': ip,
                 'port': 443,
@@ -226,8 +227,9 @@ def rank_results():
                 'proto': 'unknown',
                 'reliability': 0.5,
                 'cdn': 'unknown',
-                'country': 'Unknown',
-                'provider': 'Unknown'
+                'country': geo.get('country', 'Unknown'),
+                'provider': geo.get('provider', 'Unknown'),
+                'city': geo.get('city', 'Unknown')
             })
 
     ranked.sort(
@@ -248,11 +250,9 @@ def rank_results():
 
         country = item.get("country", "-")
         provider = item.get("provider", "-")
+        city = item.get("city", "-")
 
         sni = sni_map.get(key, "-")
-
-        city = city_map.get(ip, "-")
-
         port_type = get_port_type(port)
 
         domain = "-"
