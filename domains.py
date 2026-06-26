@@ -11,7 +11,6 @@ requests.packages.urllib3.disable_warnings()
 TLS_INPUT_FILE = "output/tls_live.txt"
 RESULTS_INPUT_FILE = "output/results.txt"
 RAW_FILE = "output/domains_raw.txt"
-IPS_FILE = "output/domains_ips.txt"
 
 DOMAIN_RE = re.compile(
     r"(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}"
@@ -67,13 +66,6 @@ def normalize_domain(domain):
         domain = domain[2:]
 
     return domain
-
-
-def resolve_domain_ip(domain):
-    try:
-        return socket.gethostbyname(domain)
-    except:
-        return None
 
 
 def cert_domains(
@@ -357,15 +349,6 @@ def extract_worker(item):
         ptr_domain(ip)
     )
 
-    domain_ips = set()
-    for domain in list(result):
-        resolved_ip = resolve_domain_ip(domain)
-        if resolved_ip:
-            domain_ips.add(resolved_ip)
-
-    for resolved_ip in domain_ips:
-        result.add(resolved_ip)
-
     return result
 
 
@@ -388,7 +371,6 @@ def extract_domains():
     )
 
     domains = set()
-    domain_ips = set()
 
     with ThreadPoolExecutor(
         max_workers=threads
@@ -409,11 +391,7 @@ def extract_domains():
                 res = fut.result()
 
                 if res:
-                    for item in res:
-                        if re.match(r'^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$', item):
-                            domain_ips.add(item)
-                        elif "." in item:
-                            domains.add(item)
+                    domains.update(res)
 
             except:
                 continue
@@ -426,8 +404,6 @@ def extract_domains():
         }
     )
 
-    domain_ips = sorted(domain_ips)
-
     with open(
         RAW_FILE,
         "w",
@@ -437,18 +413,8 @@ def extract_domains():
             "\n".join(domains)
         )
 
-    with open(
-        IPS_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
-        f.write(
-            "\n".join(domain_ips)
-        )
-
     print(
-        f"DOMAINS={len(domains)} "
-        f"DOMAIN_IPS={len(domain_ips)}"
+        f"DOMAINS={len(domains)}"
     )
 
 
@@ -471,7 +437,6 @@ def extract_domains_from_results():
     )
 
     domains = set()
-    domain_ips = set()
 
     with ThreadPoolExecutor(
         max_workers=threads
@@ -492,11 +457,7 @@ def extract_domains_from_results():
                 res = fut.result()
 
                 if res:
-                    for item in res:
-                        if re.match(r'^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$', item):
-                            domain_ips.add(item)
-                        elif "." in item:
-                            domains.add(item)
+                    domains.update(res)
 
             except:
                 continue
@@ -509,8 +470,6 @@ def extract_domains_from_results():
         }
     )
 
-    domain_ips = sorted(domain_ips)
-
     with open(
         RAW_FILE,
         "w",
@@ -520,18 +479,8 @@ def extract_domains_from_results():
             "\n".join(domains)
         )
 
-    with open(
-        IPS_FILE,
-        "w",
-        encoding="utf-8"
-    ) as f:
-        f.write(
-            "\n".join(domain_ips)
-        )
-
     print(
-        f"DOMAINS={len(domains)} "
-        f"DOMAIN_IPS={len(domain_ips)}"
+        f"DOMAINS={len(domains)}"
     )
 
 
