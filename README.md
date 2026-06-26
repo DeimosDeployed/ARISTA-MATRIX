@@ -1,6 +1,6 @@
 <div dir="rtl" align="center">
 
-# ⚡ ARISHA MATRIX PIPELINE ⚡
+# ⚡ ARISTA MATRIX PIPELINE ⚡
 
 <br>
 
