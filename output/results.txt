@@ -1,42 +1,29 @@
-1.0.198.77|443|200|513|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.198.99|443|200|915|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.115|443|200|1283|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.141|443|200|1285|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.16|443|200|1582|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.23|443|200|1409|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.91|443|400|1013|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.229|443|200|797|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.226|443|200|1348|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.38|443|200|693|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.202.253|443|200|1491|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.17|443|200|675|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.191|443|400|1138|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.150|443|200|1280|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.27|443|200|635|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.197|443|200|910|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.116|443|200|1481|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.122|443|200|1437|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.165|443|200|766|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.203.175|443|200|1322|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.204.197|443|200|1410|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.9|443|200|640|h2|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.12|443|200|650|h2|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.185|443|200|473|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.185|8443|200|463|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.88|443|400|1022|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.116|443|200|1482|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.216.232|443|200|730|h2|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.217.21|443|302|608|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.20|443|200|445|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.48|443|200|1337|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.109|443|302|569|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.143|443|302|533|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.163|443|302|552|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.205|443|302|588|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.230|443|200|1455|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.248|443|302|597|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.218.250|443|302|560|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.221.13|443|200|821|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.221.108|443|302|636|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.221.111|443|302|699|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
-1.0.221.128|443|200|1564|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
+1.0.242.241|443|200|647|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
+1.0.250.68|443|200|1527|http/1.1|1.0|0|unknown|Thailand|TOT Public Co. Ltd.
+1.1.1.2|443|301|871|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.2|8443|301|903|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.2|2053|301|892|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.2|2083|301|885|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.2|2087|301|812|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.2|2096|301|821|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|443|301|802|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|8443|301|850|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|2053|301|830|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|2083|301|792|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|2087|301|858|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.1|2096|301|838|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|443|301|876|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|8443|301|768|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|2053|301|748|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|2083|301|785|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|2087|301|713|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.1.3|2096|301|741|http/1.1|1.0|0|cloudflare|Australia|Cloudflare
+1.1.71.203|443|404|448|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.85.2|443|200|465|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.72.137|443|401|366|http/1.1|1.0|0|microsoft|Japan|I2TS-MTK
+1.1.92.241|443|403|449|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.80.130|443|200|923|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.71.202|443|404|440|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.94.161|443|200|409|http/1.1|1.0|0|microsoft|Japan|I2TS-MTK
+1.1.77.232|443|200|666|http/1.1|1.0|0|unknown|Japan|I2TS-MTK
+1.1.69.129|443|200|375|http/1.1|1.0|0|microsoft|Japan|I2TS-MTK
