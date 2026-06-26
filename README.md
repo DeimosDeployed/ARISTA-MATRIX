@@ -1,4 +1,4 @@
-<div dir="rtl" align="center">
+=<div dir="rtl" align="center">
 
 # ⚡ ARISTA MATRIX PIPELINE ⚡
 
@@ -256,9 +256,29 @@ on:
 
 <div align="center">
 
-❤️ **ساخته شده توسط تیم آریستا** (🇲‌🇲‌🇩‌) ❤️
+### 📦 **پروژه جمع‌آوری کانفیگ و سابسکریپشن‌ها برای استفاده در کلاینت‌های مختلف**  
+**V2rayNG • Hiddify • NekoBox • ClashMeta • SingBox • و سایر کلاینت‌های محبوب**
 
----
+<br>
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aristapanell-cell/AriataPanel)
+
+<br>
+<br>
+
+<table border="0" cellpadding="20" style="background: linear-gradient(135deg, #1a1a2e, #16213e); border-radius: 20px; border: 2px solid #e94560; margin: 0 auto;">
+  <tr>
+    <td align="center" style="padding: 25px 40px;">
+      <span style="font-size: 1.8em; color: #e94560;">❤️</span>
+      <span style="font-size: 1.5em; color: #ffffff; font-weight: bold;"> ساخته شده توسط تیم آریستا </span>
+      <span style="font-size: 1.8em; color: #e94560;">❤️</span>
+      <br>
+      <span style="font-size: 1.2em; color: #ffd700;">🇲‌🇲‌🇩‌</span>
+    </td>
+  </tr>
+</table>
+
+<br>
 
 ## ⭐ حمایت
 
